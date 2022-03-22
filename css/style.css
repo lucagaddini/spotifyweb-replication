@@ -68,34 +68,68 @@ footer .col-right{
     MAIN 
 */
 
+/* 
+    LEFT COLUMN OF THE MAIN 
+*/
+
+main .col-left{
+  flex-shrink: 0;
+}
+
+/* 
+    /LEFT COLUMN OF THE MAIN 
+*/
+
 
 
 /* 
     CENTRAL COLUMN OF THE MAIN 
 */
 
-main .upgrade-box{
+main .col-center {
+  flex-shrink: 1;
+   /* 100% minus the width of the left column */
+  width: calc(100% - 250px);
+}
+
+main .col-center .upgrade-box{
   position: fixed;
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.5);
   height: 70px;
-  width: 100%;
+  /* 100% minus the width of the left column */
+  width: calc(100% - 250px);
 }
 
-main nav{
-  margin-top: 70px;
+main .col-center .upgrade-box button{
+  position: absolute;
+  right: 20px;
+  top:15px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: 1px solid white;
+  background-color: #090b13;
+  color: white;
+  
 }
 
-main nav ul{
+main .col-center nav{
+  margin-top: 80px;
+  justify-content: center;
+  
+}
+
+main .col-center nav ul{
   list-style: none;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-main nav li{
+main .col-center nav li{
   padding: 10px;
 }
 
-main nav li a{
+main .col-center nav li a{
   text-transform: uppercase;
   text-decoration: none;
   color: #75797d;
