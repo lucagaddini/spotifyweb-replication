@@ -72,20 +72,37 @@ footer .col-right{
 
 main .col-left{
   flex-shrink: 0;
-  position: relative;
+  /* position: relative; */
   width: 250px;
   background-color:#000000;
+  overflow: hidden;
 }
 
 main .col-left .container{
   width: 85%;
+  height: 100%;
   margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .col-left .logo-box{
+  padding: 15px 0;
+}
+
+main .col-left .logo-box img{
+  width: 80%;
+}
+
+main .col-left .playlist-box{
+  height: 200px;
+  overflow-y: scroll;
 }
 
 main .col-left .profile-box{
-  position: absolute;
+
   bottom: 15px;
-}
+} 
 
 main .col-left  nav ul{
   list-style: none;
@@ -121,6 +138,7 @@ main .col-center {
   background-color:#141922;
    /* 100% minus the width of the left column */
   width: calc(100% - 250px);
+  overflow-y: scroll;
 }
 
 main .col-center .upgrade-box{
