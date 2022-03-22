@@ -20,14 +20,6 @@ main{
   background-color: #141922;
 }
 
-main .col-left{
-  
-}
-
-main .col-center{
-  
-}
-
 footer{
   height: 100px;
   background-color: #282828;
@@ -72,7 +64,6 @@ footer .col-right{
 
 main .col-left{
   flex-shrink: 0;
-  /* position: relative; */
   width: 250px;
   background-color:#000000;
   overflow: hidden;
@@ -86,42 +77,89 @@ main .col-left .container{
   justify-content: space-between;
 }
 
-main .col-left .logo-box{
+main .col-left-top .logo-box,
+main .col-left-top nav,
+main .col-left-top .playlist-box{
+  padding-bottom: 15px;
+}
+
+/* LOGO BOX STYLES */
+
+main .col-left-top .logo-box{
   padding: 15px 0;
 }
 
-main .col-left .logo-box img{
+main .col-left-top .logo-box img{
   width: 80%;
 }
 
-main .col-left .playlist-box{
-  height: 200px;
-  overflow-y: scroll;
-}
+/* /LOGO BOX STYLES */
 
-main .col-left .profile-box{
+/* NAV STYLES */
 
-  bottom: 15px;
-} 
-
-main .col-left  nav ul{
+main .col-left-top  nav ul{
   list-style: none;
 }
 
-main .col-left  nav li{
+main .col-left-top  nav li{
   padding: 10px 0;
 }
 
-main .col-left nav li a{
+main .col-left-top nav li a{
   text-decoration: none;
   color: #75797d;
 }
 
-main .col-left .logo-box,
-main .col-left nav,
-main .col-left .playlist-box{
-  padding-bottom: 15px;
+main .col-left-top nav .fa-solid{
+  font-size: 20px;
+  margin-right: 10px;
 }
+
+/* /NAV STYLES */
+
+/* PLAYLIST BOX STYLES */
+
+main .col-left-top .playlist-box .playlist-list{
+  overflow-y: scroll;
+}
+
+/* /PLAYLIST BOX STYLES */
+
+/* PROFILE BOX STYLES */
+main .col-left-bottom {
+  flex-shrink: 0;
+}
+
+main .col-left-bottom .profile-box{
+  bottom: 15px;
+} 
+
+main .app-install-box{
+  padding-bottom: 10px;
+}
+
+main .app-install-box a{
+  text-decoration: none;
+  color: grey
+}
+
+main .profile-details-box{
+  padding: 15px 0;
+}
+
+main .profile-details-box img{
+  vertical-align: middle;
+}
+
+main .col-left-bottom #profile-image{
+  background-color: grey;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* /PROFILE BOX STYLES */
 
 /* 
     /LEFT COLUMN OF THE MAIN 
@@ -190,4 +228,64 @@ main .col-center nav li a{
 
 /* 
     /MAIN 
+*/
+
+
+
+/* 
+    FOOTER 
+*/
+
+/* FOOTER LEFT COLUMN */
+footer .col-left{
+  width: 250px;
+  justify-content: space-between;
+}
+
+footer .song-elements{
+  align-content: center;
+}
+
+footer .song-cover{
+  padding: 20px 10px;
+}
+
+footer .song-cover img{
+  height: 50px;
+}
+
+footer .song-details{
+  padding: 25px 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .song-details .title{
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+footer .song-details .subtitle{
+  color: grey;
+  font-size: 10px;
+}
+
+footer .song-buttons .fa-regular{
+  padding: 0 5px;
+  color: grey;
+}
+/* /FOOTER LEFT COLUMN */
+
+/* FOOTER CENTRAL COLUMN */
+/* /FOOTER CENTRAL COLUMN */
+
+/* FOOTER RIGHT COLUMN */
+
+
+/* /FOOTER RIGHT COLUMN */
+
+
+/* 
+    /FOOTER 
 */
