@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 2500px;
-
 }
 
 .clearfix::after{
@@ -11,7 +9,6 @@
   display: table;
   clear: both;
 }
-
 
 body{
   font-family: 'Montserrat', sans-serif;
@@ -46,6 +43,9 @@ footer .col-right{
   align-items: center;
 }
 
+/* 
+    UTILITIES 
+*/
 
 .flex{
   display: flex;
@@ -59,3 +59,52 @@ footer .col-right{
 .f-end{
   justify-content: flex-end;
 }
+
+/* 
+    /UTILITIES 
+*/
+
+/* 
+    MAIN 
+*/
+
+
+
+/* 
+    CENTRAL COLUMN OF THE MAIN 
+*/
+
+main .upgrade-box{
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  width: 100%;
+}
+
+main nav{
+  margin-top: 70px;
+}
+
+main nav ul{
+  list-style: none;
+  justify-content: center;
+}
+
+main nav li{
+  padding: 10px;
+}
+
+main nav li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #75797d;
+}
+
+/* 
+    /CENTRAL COLUMN OF THE MAIN 
+*/
+
+/* 
+    /MAIN 
+*/
