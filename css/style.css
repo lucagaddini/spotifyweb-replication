@@ -282,6 +282,30 @@ footer .song-buttons .fa-regular{
 
 /* FOOTER RIGHT COLUMN */
 
+footer .player-volume-box {
+  align-content: center;
+}
+
+footer .player-volume-box .fa-solid{
+  padding: 0 10px;
+  color: white;
+}
+
+footer .volume-controller{
+  width: 150px;
+  height: 5px;
+  background-color: grey;
+  border-radius: 2px;
+  margin: auto 10px;
+}
+
+footer .volume-controller .volume-level{
+  width: 25%;
+  height: 5px;
+  background-color: white;
+  border-radius: 2px;
+  margin: auto 0;
+}
 
 /* /FOOTER RIGHT COLUMN */
 

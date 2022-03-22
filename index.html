@@ -38,9 +38,9 @@
         <!-- Side Menu box -->
         <nav>
           <ul>
-            <li><a href="#">Menu Item 1</a></li>
-            <li><a href="#">Menu Item 2</a></li>
-            <li><a href="#">Menu Item 3</a></li>
+            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Cerca</a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-simple"></i>La tua libreria</a></li>
           </ul>
         </nav>
         <!-- /Side Menu box -->
@@ -50,7 +50,21 @@
           
           <h4>PLAYLIST</h4>
           <div class="new-playlist">NEW PLAYLIST BOX</div>
-          <div class="playlist-list">PLAYLIST UL </div>
+          <div class="playlist-list">
+            <ul>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+              <li><a href="">Nome Playlist</a></li>
+            </ul>
+          </div>
 
         </div>
         <!-- /Playlist box -->
@@ -62,8 +76,14 @@
         <!-- Profile box -->
         <div class="profile-box">
           
-          <div class="app-install-box">INSTALLA APP</div>
-          <div class="profile-details-box">DATI PROFILO</div>
+          <div class="app-install-box">
+            <a href="#"><i class="fa-solid fa-circle-arrow-down"></i> Installa app</a>
+          </div>
+          <hr>
+          <div class="profile-details-box">
+            <img id="profile-image" src="img/profile.svg" alt="Profile Image">
+            <span>John</span>
+          </div>
 
         </div>
         <!-- /Profile box -->
@@ -75,8 +95,7 @@
   </div>
   <!-- /Side column with menu -->
 
-
-
+  
   <!-- Central column with dynamic content -->
   <div class="col-center">
 
@@ -106,9 +125,44 @@
 
 
 <footer class="flex">
-  <div class="flex col-left debug-red">COL LEFT</div>
-  <div class="flex col-center debug-blue">COL CENTER</div>
-  <div class="flex col-right debug-red">COL RIGHT</div>
+
+  <div class="col-left flex debug-red">
+
+    <!-- Box with cover and title of the song -->
+    <div class="song-elements flex">
+
+      <div class="song-cover">
+        <img src="img/sinister.jpeg" alt="Song Cover">
+      </div>
+
+      <div class="song-details flex">
+        <span class="title">Sinister</span>
+        <span class="subtitle" >Brano Nome</span>
+      </div>
+    </div>
+
+    <div class="song-buttons flex">
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-regular fa-folder"></i>
+    </div>
+    <!-- Box with cover and title of the song -->
+
+
+  </div>
+
+  <div class="col-center flex debug-blue">COL CENTER</div>
+  <div class="col-right flex debug-red">
+    
+    <div class="player-volume-box flex">
+      <i class="fa-solid fa-list"></i>
+      <i class="fa-solid fa-desktop"></i>
+      <i class="fa-solid fa-volume-high"></i>
+      <div class="volume-controller">
+        <div class="volume-level"></div>
+      </div>
+    </div>
+
+  </div>
 </footer>
 
 
