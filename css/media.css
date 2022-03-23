@@ -23,15 +23,19 @@
   /* LEFT COLUMN */
   main .col-left{
     width: 50px;
-    /* margin: 0;
-    padding: 0;
-    align-items: center; */
   }
 
+  main .col-left-top,
+  main .col-left-bottom,
+  main .col-left-bottom .profile-box {
+    padding-left: 0;
+  }
+  
   main .col-left .container{
     align-items: center;
   }
 
+  
   /* LOGO BOX */
   main .col-left-top #logo-small{
     display: block;
