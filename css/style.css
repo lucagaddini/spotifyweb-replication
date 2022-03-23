@@ -213,8 +213,6 @@ main .col-left-bottom #profile-image{
     /LEFT COLUMN OF THE MAIN 
 */
 
-
-
 /* 
     CENTRAL COLUMN OF THE MAIN 
 */
@@ -269,8 +267,6 @@ main .col-center nav li a{
   color: #75797d;
 }
 
-
-
 main .col-center nav ul .active{
   border-bottom: 1px solid greenyellow;
 }
@@ -283,7 +279,6 @@ main .col-center span{
   color: gray;
   font-size: 12px;
 }
-
 
 main .col-center .recently-played-box,
 main .col-center .personal-playlist-box,
@@ -335,8 +330,6 @@ main .col-center .artist-box .artist-name{
   font-size: 15px;
   padding: 10px 0px 5px 0;
 }
-
-
 
 /* 
     /CENTRAL COLUMN OF THE MAIN 

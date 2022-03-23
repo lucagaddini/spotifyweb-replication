@@ -17,9 +17,60 @@ main .col-left .playlist-list ul li a:hover #create-new-playlist{
   background-color: white;
 }
 
+
+/* 
+    CENTRAL COLUMN OF THE MAIN 
+*/
+
+
 main .col-center .upgrade-box button:hover{
   transform: scale(1.1);
 }
+
+main .col-center .song-cover,
+main .col-center .artist-cover{
+  position: relative;
+}
+
+main .col-center .cover-hover-box #play-hover,
+main .col-center .artist-hover-box #play-hover{
+  font-size: 45px;
+  z-index: 10;
+}
+
+main .col-center .cover-hover-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+main .col-center .artist-hover-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+main .col-center .song-cover:hover .cover-hover-box,
+main .col-center .artist-cover:hover .artist-hover-box{
+  display:flex
+}
+
+/* 
+    /CENTRAL COLUMN OF THE MAIN 
+*/
+
+/* 
+    FOOTER
+*/
 
 footer .col-left .song-buttons i:hover{
   color: white;
@@ -28,6 +79,10 @@ footer .col-left .song-buttons i:hover{
 footer .col-center #play:hover{
   transform: scale(1.2);
 }
+
+/* 
+    /FOOTER
+*/
 
 /* 
     /HOVER 
