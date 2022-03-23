@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (min-width:600px) and (max-width:849px) {
+@media screen and (min-width:700px) and (max-width:849px) {
 
   main .col-center .song-box,
   main .col-center .artist-box{
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:699px) {
 
   /* LEFT COLUMN */
   main .col-left{
@@ -48,6 +48,11 @@
   main .col-left-top .nav-bar-small{
     display: block;
     margin: 0 auto;
+    text-align: center;
+  }
+
+  main .col-left-top nav .fa-solid {
+    margin-right: 0;
   }
 
   main .col-left-top .nav-bar-normal{
@@ -65,6 +70,12 @@
   /* /PLAYLIST BOX */
 
   /* PROFILE BOX */
+
+  main .app-install-box{
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
   main .col-left-bottom .profile-box hr{
     display: none;
   }
@@ -75,6 +86,10 @@
 
   main .col-left-bottom .profile-box .app-install-box #download-small{
     display: block;
+  }
+
+  main .col-left-bottom #profile-image {
+    margin-right: 0;
   }
 
   main .col-left-bottom .profile-box #profile-name{
