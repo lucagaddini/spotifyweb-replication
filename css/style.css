@@ -295,7 +295,7 @@ main .col-center .artist-box{
   justify-content: flex-start;
   align-items: center;
   padding: 0 5px;
-  width: 200px;
+  width: calc(100%/6);
   height: 100%;
   text-align: center;
 }
@@ -348,9 +348,9 @@ main .col-center .artist-box .artist-name{
 
 /* FOOTER LEFT COLUMN */
 footer .col-left{
-  width: 250px;
-  justify-content: space-between;
-  flex-shrink: 0;
+  width: calc(100%/3);
+  justify-content: flex-start;
+  
 }
 
 footer .song-elements{
@@ -391,9 +391,10 @@ footer .song-buttons .fa-regular{
 /* FOOTER CENTRAL COLUMN */
 
 footer .col-center{
+  width: calc(100%/3);
   flex-direction: column;
   justify-content: center;
-  flex-shrink: 0;
+  min-width: 215px;
 }
 
 footer .player-buttons{
@@ -411,8 +412,12 @@ footer .player-buttons #play{
   font-size: 30px;
 }
 
+footer .song-duration{
+  width: 100%;
+}
+
 footer .song-player-controller{
-  width: 400px;
+  width: 100%;
   height: 5px;
   background-color: grey;
   border-radius: 2px;
@@ -434,11 +439,14 @@ footer .song-player-controller .song-player-current-time{
 /* FOOTER RIGHT COLUMN */
 
 footer .col-right{
-  flex-shrink: 0;
+  width: calc(100%/3);
+  justify-content: flex-end;
 }
 
 footer .player-volume-box {
-  align-content: center;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 footer .player-volume-box .fa-solid{
@@ -447,11 +455,12 @@ footer .player-volume-box .fa-solid{
 }
 
 footer .volume-controller{
-  width: 150px;
+  width: 100%;
   height: 5px;
   background-color: grey;
   border-radius: 2px;
   margin: auto 10px;
+  min-width: 50px;
 }
 
 footer .volume-controller .volume-level{
