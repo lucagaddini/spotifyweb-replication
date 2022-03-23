@@ -31,19 +31,28 @@
       <div class="col-left-top">
         <!-- Logo box -->
         <div class="logo-box">
-          <img src="img/logo.svg" alt="Spotify Logo">
+          <img id="logo" src="img/logo.svg" alt="Spotify Logo">
+          <img id="logo-small" src="img/logo-small.svg" alt="Spotify Logo">
         </div>
         <!-- /Logo box -->
 
         <!-- Side Menu box -->
-        <nav>
+        <nav class="nav-bar-normal">
           <ul>
             <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Cerca</a></li>
             <li><a href="#"><i class="fa-solid fa-chart-simple"></i>La tua libreria</a></li>
           </ul>
         </nav>
-        <!-- /Side Menu box -->
+
+        <nav class="nav-bar-small">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-simple"></i></a></li>
+          </ul>
+        </nav>
+        <!-- /Side Menu box --><
 
         <!-- Playlist box -->
         <div class="playlist-box">
@@ -95,7 +104,6 @@
   </div>
   <!-- /Side column with menu -->
 
-  
   <!-- Central column with dynamic content -->
   <div class="col-center">
 
@@ -117,8 +125,9 @@
       </ul>
     </nav>
     <!-- Main box menu -->
+
+    <!-- Recently played section -->
     <h2>Recently played</h2>
-    
     <div class="recently-played-box flex">
       
         <div class="song-box">
@@ -170,9 +179,52 @@
         </div>
       
     </div>
+    <!-- /Recently played section -->
 
+    <!-- Personal Platlist section -->
     <h2>Creato per John Doe</h2>
     <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+    <div class="personal-playlist-box flex">
+      
+      <div class="song-box">
+        <div class="song-cover flex">
+          <img src="img/radar.jpeg" alt="Song Cover">
+          <span class="song-title">Release Radar</span>
+        </div>
+      </div>
+
+      <div class="song-box">
+        <div class="song-cover flex">
+          <img src="img/mixdaily.jpeg" alt="Song Cover">
+          <span class="song-title">Daily Mix 1</span>
+        </div>
+      </div>
+    
+    </div>
+    <!-- /Personal Platlist section -->
+
+
+    <!-- Most popular artists section -->
+    <h2>Artisti più popolari</h2>
+    <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+    <div class="most-popular-artist-box flex">
+      
+      <div class="artist-box">
+        <div class="artist-cover flex">
+          <img src="img/youg.jpeg" alt="Artist Cover">
+          <span class="artist-name">Lana del Rey</span>
+        </div>
+      </div>
+
+      <div class="artist-box">
+        <div class="artist-cover flex">
+          <img src="img/einaudi.jpeg" alt="Artist Cover">
+          <span class="artist-name">Ludovico Einaudi</span>
+        </div>
+      </div>
+    
+    </div>
+    <!-- /Most popular artists section -->
 
   </div>
   <!-- /Central column with dynamic content -->
@@ -245,6 +297,7 @@
     </div>
 
   </div>
+
 </footer>
 
 
