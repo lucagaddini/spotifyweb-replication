@@ -1,0 +1,34 @@
+/* 
+    HOVER 
+*/
+
+main .col-center nav ul li a:hover,
+main .col-left ul li a:hover,
+main .col-left .playlist-list ul li a:hover,
+main .col-left .col-left-bottom a:hover{
+  color: white;
+}
+
+main button{
+  cursor: pointer;
+}
+
+main .col-left .playlist-list ul li a:hover #create-new-playlist{
+  background-color: white;
+}
+
+main .col-center .upgrade-box button:hover{
+  transform: scale(1.1);
+}
+
+footer .col-left .song-buttons i:hover{
+  color: white;
+}
+
+footer .col-center #play:hover{
+  transform: scale(1.2);
+}
+
+/* 
+    /HOVER 
+*/

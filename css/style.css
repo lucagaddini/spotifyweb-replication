@@ -238,7 +238,7 @@ main .col-center .upgrade-box{
 
 main .col-center .upgrade-box button{
   position: absolute;
-  right: 20px;
+  right: 40px;
   top:15px;
   padding: 10px 30px;
   border-radius: 25px;
@@ -269,9 +269,7 @@ main .col-center nav li a{
   color: #75797d;
 }
 
-main .col-center nav ul li a:hover{
-  color: white;
-}
+
 
 main .col-center nav ul .active{
   border-bottom: 1px solid greenyellow;
@@ -479,57 +477,4 @@ footer .volume-controller .volume-level{
 */
 
 
-/* 
-MEDIA
-*/
 
-@media screen and (max-width:550px) {
-
-  main .col-left{
-    width: 50px;
-  }
-
-  main .col-center,
-  main .col-center .upgrade-box{
-    width: calc(100% - 50px);
-  }
-
-  main .col-left-top #logo-small{
-    display: block;
-  }
-
-  main .col-left-top #logo{
-    display: none;
-  }
-
-  
-  main .col-left-top .nav-bar-small{
-    display: block;
-  }
-
-  main .col-left-top .nav-bar-normal{
-    display: none;
-  }
-
-  main .col-left-top .playlist-box{
-    display: none;
-  }
-
-  main .col-left-bottom .profile-box hr{
-    display: none;
-  }
-
-  main .col-left-bottom .profile-box .app-install-box #download-normal{
-    display: none;
-  }
-
-  main .col-left-bottom .profile-box .app-install-box #download-small{
-    display: block;
-  }
-
-  main .col-left-bottom .profile-box #profile-name{
-    display: none;
-  }
-
-  
-}
