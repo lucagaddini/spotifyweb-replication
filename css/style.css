@@ -135,9 +135,37 @@ main .col-left-top nav .fa-solid{
 
 /* PLAYLIST BOX STYLES */
 
+main .col-left-top .playlist-box h4{
+  padding-bottom: 10px;
+}
+
+main .col-left-top .playlist-box span{
+  color: grey;
+}
+
+main .col-left-top .playlist-box #create-new-playlist{
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  color: black;
+  background-color: grey;
+  border-style: none;
+}
+
 main .col-left-top .playlist-box .playlist-list{
   overflow-y: auto;
+  padding-top: 10px;
 }
+
+main .col-left-top .playlist-box .playlist-list ul li{
+  padding: 5px 0;
+}
+
+main .col-left-top .playlist-box .playlist-list ul li a{
+  text-decoration: none;
+  color:grey
+}
+
 
 /* /PLAYLIST BOX STYLES */
 
@@ -157,6 +185,10 @@ main .app-install-box{
 main .app-install-box a{
   text-decoration: none;
   color: grey
+}
+
+main .col-left-bottom .app-install-box #download-small{
+  display: none;
 }
 
 main .profile-details-box{
@@ -213,7 +245,6 @@ main .col-center .upgrade-box button{
   border: 1px solid white;
   background-color: #090b13;
   color: white;
-  
 }
 
 main .col-center nav{
@@ -477,6 +508,26 @@ MEDIA
   }
 
   main .col-left-top .nav-bar-normal{
+    display: none;
+  }
+
+  main .col-left-top .playlist-box{
+    display: none;
+  }
+
+  main .col-left-bottom .profile-box hr{
+    display: none;
+  }
+
+  main .col-left-bottom .profile-box .app-install-box #download-normal{
+    display: none;
+  }
+
+  main .col-left-bottom .profile-box .app-install-box #download-small{
+    display: block;
+  }
+
+  main .col-left-bottom .profile-box #profile-name{
     display: none;
   }
 

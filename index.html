@@ -52,13 +52,16 @@
             <li><a href="#"><i class="fa-solid fa-chart-simple"></i></a></li>
           </ul>
         </nav>
-        <!-- /Side Menu box --><
+        <!-- /Side Menu box -->
 
         <!-- Playlist box -->
         <div class="playlist-box">
-          
           <h4>PLAYLIST</h4>
-          <div class="new-playlist">NEW PLAYLIST BOX</div>
+
+          <div class="new-playlist">
+            <button id="create-new-playlist" ><i class="fa-solid fa-plus"></i></button>
+            <span>Crea Playlist</span>
+          </div>
           <div class="playlist-list">
             <ul>
               <li><a href="">Nome Playlist</a></li>
@@ -86,12 +89,13 @@
         <div class="profile-box">
           
           <div class="app-install-box">
-            <a href="#"><i class="fa-solid fa-circle-arrow-down"></i> Installa app</a>
+            <a id="download-normal" href="#"><i class="fa-solid fa-circle-arrow-down"></i> Installa app</a>
+            <a id="download-small" href="#"><i class="fa-solid fa-circle-arrow-down"></i></a>
           </div>
           <hr>
           <div class="profile-details-box">
             <img id="profile-image" src="img/profile.svg" alt="Profile Image">
-            <span>John Doe</span>
+            <span id="profile-name" >John Doe</span>
           </div>
 
         </div>
