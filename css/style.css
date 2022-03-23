@@ -454,6 +454,11 @@ footer .player-volume-box .fa-solid{
   color: white;
 }
 
+footer .player-volume-box #dot-pointer{
+  padding: 0 ;
+  color: white;
+}
+
 footer .volume-controller{
   width: 100%;
   height: 5px;

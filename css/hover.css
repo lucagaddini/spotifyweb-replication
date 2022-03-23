@@ -80,6 +80,27 @@ footer .col-center #play:hover{
   transform: scale(1.2);
 }
 
+footer .volume-controller #dot-pointer,
+footer .song-player-controller #dot-pointer{
+  display: none;
+}
+
+footer .volume-controller:hover #dot-pointer,
+footer .song-player-controller:hover #dot-pointer{
+  display: flex;
+}
+
+footer .volume-controller:hover .volume-level,
+footer .song-player-controller:hover .song-player-current-time{
+  background-color: greenyellow;
+}
+
+footer .song-player-controller .song-player-current-time,
+footer .volume-controller .volume-level {
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /* 
     /FOOTER
 */
