@@ -37,6 +37,11 @@
 
   
   /* LOGO BOX */
+
+  main .col-left-top .logo-box{
+  margin-left: 0;
+}
+
   main .col-left-top #logo-small{
     display: block;
   }

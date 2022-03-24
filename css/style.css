@@ -101,7 +101,6 @@ main .col-left-top{
   min-height: 250px;
   flex-direction: column;
   justify-content: flex-start;
-  /* flex-shrink: 1; */
   overflow-y: hidden;
   overflow-x: none;
 }
@@ -122,16 +121,17 @@ main .col-left-top .playlist-box{
 
 main .col-left-top .logo-box,
 main .col-left-top .playlist-box{
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 /* padding-left different due to the active border */
 main .col-left-top .nav-bar-normal{
-  padding-left: 13px;
+  margin-left: 15px;
 }
 
 main .col-left-top .playlist-box{
-  height: 70%;
+  height: 100%;
+  overflow-y: auto;
 }
 
 main .col-left-top .playlist-box .playlist-list{
