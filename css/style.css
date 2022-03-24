@@ -98,10 +98,10 @@ main .col-left-bottom {
 
 main .col-left-top{
   height: calc(100% - 80px);
-  min-height: 220px;
+  min-height: 250px;
   flex-direction: column;
   justify-content: flex-start;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   overflow-y: hidden;
   overflow-x: none;
 }
@@ -130,7 +130,6 @@ main .col-left-top .nav-bar-normal{
   padding-left: 13px;
 }
 
-
 main .col-left-top .playlist-box{
   height: 70%;
 }
@@ -138,7 +137,6 @@ main .col-left-top .playlist-box{
 main .col-left-top .playlist-box .playlist-list{
   height: 100%;
   overflow-y: auto;
-  padding-top: 10px;
 }
 
 /* /TEST */
@@ -209,6 +207,9 @@ main .col-left-top .playlist-box span{
   color: grey;
 }
 
+main .col-left-top .playlist-box #new-playlist-box {
+	padding-bottom: 15px;
+}
 
 main .col-left-top .playlist-box #create-new-playlist{
   width: 40px;
@@ -224,7 +225,8 @@ main .col-left-top .playlist-box .playlist-list ul li{
   list-style: none;
 }
 
-main .col-left-top .playlist-box .playlist-list ul li a{
+main .col-left-top .playlist-box .playlist-list ul li a,
+main .col-left-top .playlist-box a{
   text-decoration: none;
   color:grey
 }

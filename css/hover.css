@@ -4,6 +4,7 @@
 
 main .col-center nav ul li a:hover,
 main .col-left ul li a:hover,
+main .col-left .playlist-box a:hover,
 main .col-left .playlist-list ul li a:hover,
 main .col-left .col-left-bottom a:hover{
   color: white;
@@ -13,7 +14,7 @@ main button{
   cursor: pointer;
 }
 
-main .col-left .playlist-list ul li a:hover #create-new-playlist{
+main .col-left .playlist-box  a:hover #create-new-playlist{
   background-color: white;
 }
 
