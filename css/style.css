@@ -258,17 +258,18 @@ main .col-left-bottom .app-install-box #download-small{
 }
 
 main .profile-details-box{
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 main .profile-details-box img{
   vertical-align: middle;
+  width: auto;
 }
 
 main .col-left-bottom #profile-image{
   background-color: grey;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -322,7 +323,6 @@ main .col-center nav ul{
   list-style: none;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
 main .col-center nav li{
