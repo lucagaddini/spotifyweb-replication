@@ -3,7 +3,7 @@
 
 ## Demo
 
-http://boolzapp.lucagaddini.com/
+https://spotify.lucagaddini.com/
 
 
 ## Screenshots
